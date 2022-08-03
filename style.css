@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1b641;
+}
+header input{
+   border-radius: 20px;
+   align-items: center;
+   width: 90vw;
+   height: 7vh;
+   position: relative;
+   top: 3vh;
+   left: 5vw;
+   font-size: 20px;
+   text-align: center;
+   background-color: #ffecc0;
+
+}
+
+.hamburgerMenu{
+   width: 7vw;
+   position: absolute;
+   left: 9vw;
+   top: 8vw;
+}
+
+.padlock{
+    width: 7vw;
+    position: absolute;
+    left: 85vw;
+    top: 8vw;
+}
+
+
+main .intensity{
+    position: relative;
+    top: 6vh;
+    left: 23vw;
+}
+
+
+main .text{
+    width: 80vw;
+    height: 28vh;
+
+}
+.text h1{
+    word-spacing: 20vw;
+    font-size: 38px;
+    position: relative;
+    top: 5vh;
+    left: 8vw;
+
+}
+
+.text h2{
+    position: relative;
+    top: 7vh;
+    left: 8vw;
+}
+
+.text .ingredients{
+    position: relative;
+    top: 8vh;
+    left: 8vw;
+
+}
+
+.text h3{
+    position: relative;
+    top: 9vh;
+    left: 8vw;
+    font-size: 23px;
+}
+
+.text p{
+    position: relative;
+    top: 10vh;
+    left: 8vw;
+}
