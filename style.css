@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Oswald&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Merienda:wght@700&family=Oswald&family=Source+Sans+Pro&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body{
@@ -18,6 +22,8 @@ header input{
    font-size: 20px;
    text-align: center;
    background-color: #ffecc0;
+   font-family: 'Merienda', sans-serif;
+   border: none;
 
 }
 
@@ -25,21 +31,22 @@ header input{
    width: 7vw;
    position: absolute;
    left: 9vw;
-   top: 8vw;
+   top: 4vh;
 }
 
 .padlock{
     width: 7vw;
     position: absolute;
     left: 85vw;
-    top: 8vw;
+    top: 4vh;
 }
 
 
 main .intensity{
     position: relative;
-    top: 6vh;
-    left: 23vw;
+    top: 4vh;
+    left: 29vw;
+    width: 40vw;
 }
 
 
@@ -49,36 +56,83 @@ main .text{
 
 }
 .text h1{
-    word-spacing: 20vw;
+    word-spacing: 26vw;
     font-size: 38px;
     position: relative;
-    top: 5vh;
+    top: 4vh;
     left: 8vw;
 
 }
 
 .text h2{
     position: relative;
-    top: 7vh;
+    top: 5vh;
     left: 8vw;
 }
 
 .text .ingredients{
     position: relative;
-    top: 8vh;
+    top: 6vh;
     left: 8vw;
-
 }
 
 .text h3{
     position: relative;
-    top: 9vh;
+    top: 7vh;
     left: 8vw;
     font-size: 23px;
 }
 
 .text p{
     position: relative;
-    top: 10vh;
+    top: 8vh;
     left: 8vw;
+}
+
+main .options{
+    position: relative;
+    top: 11vh;
+    left: 8vw;
+    word-spacing: 7vw;
+}
+
+footer{
+    width: 190vw;
+}
+
+footer .count{
+    width: 81vw;
+    height: 5vh;
+    border-radius: 20px;
+    position: relative;
+    top: 13vh;
+    background-color: #f1b641;
+    word-spacing: 27vw;
+    left: 8vw;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.addCart{
+    width: 81vw;
+    height: 5vh;
+    border-radius: 20px;
+    position: relative;
+    top: 20vh;
+    background-color: #f1b641;
+    right: 74vw;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.addCart:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
 }
